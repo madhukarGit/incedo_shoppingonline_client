@@ -4,9 +4,11 @@ import PageNav from "../components/PageNav";
 
 export default function Homepage() {
   return (
-    <div>
+    <main className={styles.homepage}>
       <PageNav />
-      Homepage
-    </div>
+      <section>
+        <h1>You can shop here, best place to encrich your wardrobe</h1>
+      </section>
+    </main>
   );
 }
